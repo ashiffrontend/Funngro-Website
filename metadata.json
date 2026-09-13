@@ -1,0 +1,6 @@
+{
+  "name": "Funngro Website Revamp",
+  "description": "An original, high-performance redesign of the Funngro platform featuring dedicated portals for Companies and Teen talent, built with HTML5, CSS3, Vanilla JavaScript, and full SEO optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

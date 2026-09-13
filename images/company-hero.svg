@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="compGradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="compGradNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="compGradCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <filter id="compShadowLg" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.14" />
+    </filter>
+    <filter id="compShadowSm" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Ambient Corporate Blue Gradient -->
+  <circle cx="300" cy="250" r="230" fill="#2563EB" opacity="0.07" />
+  <circle cx="500" cy="110" r="80" fill="#2563EB" opacity="0.1" />
+  <circle cx="80" cy="390" r="90" fill="#0F172A" opacity="0.04" />
+
+  <!-- Abstract Corporate Geometric Lines -->
+  <path d="M40 80L560 80" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6 6" />
+  <path d="M40 420L560 420" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6 6" />
+
+  <!-- Main Corporate Executive Dashboard Frame -->
+  <g filter="url(#compShadowLg)">
+    <rect x="65" y="55" width="470" height="355" rx="16" fill="url(#compGradCard)" stroke="#CBD5E1" stroke-width="1.5" />
+    
+    <!-- Window Top Header Bar -->
+    <rect x="65" y="55" width="470" height="48" rx="16" fill="#0F172A" />
+    <path d="M65 85H535V103H65z" fill="#0F172A"/>
+    
+    <!-- Window Controls -->
+    <circle cx="92" cy="79" r="5" fill="#EF4444" />
+    <circle cx="108" cy="79" r="5" fill="#F59E0B" />
+    <circle cx="124" cy="79" r="5" fill="#10B981" />
+    
+    <!-- Window Search/URL Bar -->
+    <rect x="165" y="70" width="240" height="18" rx="6" fill="#1E293B" />
+    <circle cx="178" cy="79" r="3.5" fill="#64748B" />
+    <rect x="190" y="76" width="130" height="6" rx="3" fill="#64748B" />
+
+    <rect x="420" y="70" width="90" height="18" rx="6" fill="#2563EB" />
+    <text x="432" y="83" font-family="'Poppins', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LIVE SPRINT</text>
+
+    <!-- Internal Corporate Dashboard Grid -->
+    <!-- Left Navigation Sidebar -->
+    <rect x="85" y="120" width="95" height="270" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+    <rect x="98" y="138" width="68" height="12" rx="4" fill="#2563EB" />
+    <rect x="98" y="162" width="58" height="8" rx="3" fill="#CBD5E1" />
+    <rect x="98" y="180" width="64" height="8" rx="3" fill="#CBD5E1" />
+    <rect x="98" y="198" width="50" height="8" rx="3" fill="#CBD5E1" />
+    <rect x="98" y="216" width="60" height="8" rx="3" fill="#CBD5E1" />
+    
+    <!-- Sidebar Bottom Team Metric -->
+    <rect x="98" y="320" width="68" height="52" rx="6" fill="#EFF6FF" stroke="#BFDBFE" />
+    <text x="108" y="340" font-family="'Poppins', sans-serif" font-size="11" font-weight="800" fill="#2563EB">14,200+</text>
+    <text x="108" y="356" font-family="'Poppins', sans-serif" font-size="8" font-weight="600" fill="#64748B">Vetted Teens</text>
+
+    <!-- Center Content: Sprint Execution Console -->
+    <rect x="195" y="120" width="320" height="145" rx="10" fill="#FFFFFF" stroke="#E2E8F0" />
+    <text x="212" y="146" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#0F172A">Enterprise Project Sprint #4802</text>
+    
+    <!-- Milestone Tag -->
+    <rect x="425" y="134" width="76" height="18" rx="6" fill="#DCFCE7" />
+    <text x="435" y="146" font-family="'Poppins', sans-serif" font-size="8.5" font-weight="700" fill="#15803D">99.4% QUALITY</text>
+    
+    <!-- Project Details Mock Lines -->
+    <rect x="212" y="165" width="286" height="8" rx="3" fill="#F1F5F9" />
+    <rect x="212" y="180" width="220" height="8" rx="3" fill="#F1F5F9" />
+
+    <!-- Progress Tracker -->
+    <text x="212" y="210" font-family="'Poppins', sans-serif" font-size="10" font-weight="600" fill="#475569">Deliverable Velocity</text>
+    <text x="475" y="210" font-family="'Poppins', sans-serif" font-size="10" font-weight="700" fill="#2563EB">36h ETA</text>
+    <rect x="212" y="218" width="286" height="8" rx="4" fill="#E2E8F0" />
+    <rect x="212" y="218" width="245" height="8" rx="4" fill="url(#compGradBlue)" />
+
+    <!-- Bottom Metric Cards -->
+    <!-- Card 1: Escrow & Security -->
+    <rect x="195" y="280" width="152" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+    <rect x="210" y="295" width="28" height="28" rx="6" fill="#EFF6FF" />
+    <!-- Check Shield -->
+    <path d="M224 301L229 303V308C229 312 226.5 315 224 316C221.5 315 219 312 219 308V303L224 301Z" fill="#2563EB" />
+    <text x="210" y="342" font-family="'Poppins', sans-serif" font-size="17" font-weight="800" fill="#0F172A">100%</text>
+    <text x="210" y="358" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#2563EB">Escrow Protected</text>
+    <text x="210" y="372" font-family="'Poppins', sans-serif" font-size="8" fill="#64748B">Milestone Release</text>
+
+    <!-- Card 2: Cost Reduction -->
+    <rect x="363" y="280" width="152" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+    <rect x="378" y="295" width="28" height="28" rx="6" fill="#FEF3C7" />
+    <text x="387" y="314" font-family="'Poppins', sans-serif" font-size="15" font-weight="800" fill="#B45309">₹</text>
+    <text x="378" y="342" font-family="'Poppins', sans-serif" font-size="17" font-weight="800" fill="#0F172A">60%</text>
+    <text x="378" y="358" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#D97706">Cost Efficiency</text>
+    <text x="378" y="372" font-family="'Poppins', sans-serif" font-size="8" fill="#64748B">vs Agency Retainers</text>
+  </g>
+
+  <!-- Top Floating Corporate Talent Pill -->
+  <g filter="url(#compShadowSm)">
+    <rect x="420" y="20" width="168" height="62" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <circle cx="448" cy="51" r="16" fill="url(#compGradBlue)" />
+    <text x="443" y="56" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">K</text>
+    <circle cx="458" cy="60" r="4.5" fill="#10B981" stroke="#FFFFFF" stroke-width="1.5" />
+    <text x="474" y="46" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#0F172A">Kabir V. (17)</text>
+    <text x="474" y="60" font-family="'Poppins', sans-serif" font-size="9" font-weight="600" fill="#2563EB">AI &amp; Automation Dev</text>
+  </g>
+
+  <!-- Bottom Floating Corporate Verification Seal -->
+  <g filter="url(#compShadowSm)">
+    <rect x="15" y="330" width="180" height="64" rx="10" fill="#0F172A" stroke="#334155" />
+    <circle cx="45" cy="362" r="16" fill="#2563EB" />
+    <path d="M41 362L44 365L50 359" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="356" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Pre-Vetted Talent</text>
+    <text x="70" y="370" font-family="'Poppins', sans-serif" font-size="9" fill="#94A3B8">ISO Compliant Review</text>
+  </g>
+</svg>

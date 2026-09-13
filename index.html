@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Funngro Revamp | The Next-Gen Youth Digital Talent Ecosystem</title>
+  <meta name="title" content="Funngro Revamp | The Next-Gen Youth Digital Talent Ecosystem">
+  <meta name="description" content="Connecting forward-thinking companies with ambitious, skilled teenagers for agile digital projects in web development, design, content, and AI.">
+  <meta name="keywords" content="Funngro revamp, hire teen talent, earn while you learn, student freelance, gen z creators, teen digital gigs, startup outsourcing">
+  <meta name="author" content="Funngro Revamp Team">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://funngro-revamp.vercel.app/index.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://funngro-revamp.vercel.app/index.html">
+  <meta property="og:title" content="Funngro Revamp | The Next-Gen Youth Digital Talent Ecosystem">
+  <meta property="og:description" content="Explore the redesigned dual ecosystem for Companies seeking agile talent and Teens building skills & earning their first income.">
+  <meta property="og:image" content="https://funngro-revamp.vercel.app/images/company-hero.svg">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://funngro-revamp.vercel.app/index.html">
+  <meta name="twitter:title" content="Funngro Revamp | The Next-Gen Youth Digital Talent Ecosystem">
+  <meta name="twitter:description" content="Explore the redesigned dual ecosystem for Companies and Teens. Built with HTML5, CSS3, Vanilla JS, and full SEO optimization.">
+  <meta name="twitter:image" content="https://funngro-revamp.vercel.app/images/company-hero.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+
+  <!-- JSON-LD Structured Data: Organization & WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://funngro-revamp.vercel.app/#website",
+        "url": "https://funngro-revamp.vercel.app/",
+        "name": "Funngro Website Revamp",
+        "description": "The Next-Gen Youth Digital Talent Ecosystem connecting companies and teenagers.",
+        "publisher": {
+          "@id": "https://funngro-revamp.vercel.app/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://funngro-revamp.vercel.app/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://funngro-revamp.vercel.app/#organization",
+        "name": "Funngro Revamp",
+        "url": "https://funngro-revamp.vercel.app",
+        "logo": "https://funngro-revamp.vercel.app/images/favicon.svg",
+        "description": "Digital platform bridging businesses needing affordable creative and technical work with teenagers building practical career skills."
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Header & Navigation (1280px Max Width, 80px Height, 0 0 24px 24px Radius) -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <!-- Left: Logo & Enterprise Badge (20px margin) -->
+      <div class="header-left">
+        <a href="index.html" class="brand-logo" aria-label="Funngro Homepage">
+          <div class="logo-symbol"><i class="fa-solid fa-bolt"></i></div>
+          <span>funn<span class="brand-accent">gro</span></span>
+        </a>
+        <span class="enterprise-badge"><i class="fa-solid fa-layer-group"></i> Enterprise</span>
+      </div>
+
+      <!-- Center Menu: ONLY Home, Company, Teen, Pricing, Contact (32px Gap) -->
+      <nav class="header-center" aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="company.html" class="nav-link">Company</a></li>
+          <li class="nav-item"><a href="teen.html" class="nav-link">Teen</a></li>
+          <li class="nav-item"><a href="company.html#pricing" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="company.html#business-contact" class="nav-link">Contact</a></li>
+          
+          <!-- Mobile Drawer Action Buttons -->
+          <li class="drawer-actions">
+            <a href="company.html" class="btn-hire-filled drawer-btn">
+              <i class="fa-solid fa-user-check"></i> Hire Now
+            </a>
+            <a href="company.html#business-contact" class="btn-post-gradient drawer-btn">
+              <i class="fa-solid fa-bolt"></i> Post Project
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right: Outline Login Button & Primary Hire Now Button (16px Gap, 48px Height, Max 160px Width) -->
+      <div class="header-right">
+        <button class="btn-login-outline" data-modal="login-modal" aria-label="Client Login">
+          <i class="fa-regular fa-user"></i> Login
+        </button>
+        <a href="company.html" class="btn-hire-filled" aria-label="Hire Young Talent">
+          Hire Now <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; margin-left: 4px;"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Controls: Login Button Only + Hamburger Menu -->
+      <div class="header-mobile-controls">
+        <button class="btn-login-outline btn-mobile-login" data-modal="login-modal" aria-label="Client Login">
+          Login
+        </button>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    <!-- HERO SECTION: DUAL PORTAL SHOWCASE -->
+    <section class="hero" id="hero">
+      <div class="bg-orb bg-orb-1"></div>
+      <div class="bg-orb bg-orb-2"></div>
+      <div class="container" style="text-align: center; max-width: 900px; margin: 0 auto 64px auto;">
+        <div class="hero-tag" data-aos="fade-down">
+          <i class="fa-solid fa-wand-magic-sparkles" style="color: var(--primary);"></i>
+          Production-Ready Website Revamp Concept
+        </div>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+          The Future of Work Meets <br><span class="gradient-text">Youth Prodigy Talent</span>
+        </h1>
+        <p class="hero-subtitle" style="margin: 0 auto 36px auto;" data-aos="fade-up" data-aos-delay="200">
+          A completely redesigned two-sided platform: Empowering companies to complete digital projects with speed & affordability, while enabling teenagers to learn skills and earn real income.
+        </p>
+        <div class="hero-buttons" style="justify-content: center;" data-aos="fade-up" data-aos-delay="300">
+          <a href="company.html" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-building"></i> Enter Company Portal
+          </a>
+          <a href="teen.html" class="btn btn-secondary btn-lg">
+            <i class="fa-solid fa-graduation-cap"></i> Enter Teen Portal
+          </a>
+          <a href="seo-audit-report.html" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-file-shield"></i> View SEO Audit
+          </a>
+        </div>
+      </div>
+
+      <!-- DUAL PATH INTERACTIVE CARDS -->
+      <div class="container" id="dual-paths">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px;">
+          <!-- Path 1: For Companies -->
+          <article class="glass-card" style="border-top: 5px solid var(--primary);" data-aos="fade-right">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+              <span class="section-badge"><i class="fa-solid fa-briefcase"></i> For Businesses</span>
+              <span style="font-size: 0.8125rem; font-weight: 700; color: var(--primary);">5000+ Companies</span>
+            </div>
+            <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">
+              Hire Young Digital Talent
+            </h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 24px;">
+              Connect with skilled teenagers to complete real business projects quickly and affordably. Save up to 60% with escrow payment protection.
+            </p>
+            <ul style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; font-size: 0.875rem; color: var(--text-secondary);">
+              <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 8px;"></i> Pre-vetted in Web Dev, UI/UX, AI, & Content</li>
+              <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 8px;"></i> Average 48-hour sprint turnaround</li>
+              <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 8px;"></i> Zero risk with milestone release escrow</li>
+            </ul>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="company.html" class="btn btn-primary" style="flex: 1;">
+                Explore Company Portal <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Path 2: For Teens -->
+          <article class="glass-card" style="border-top: 5px solid var(--secondary);" data-aos="fade-left">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+              <span class="section-badge badge-green"><i class="fa-solid fa-graduation-cap"></i> For Students (14-25)</span>
+              <span style="font-size: 0.8125rem; font-weight: 700; color: var(--secondary);">70L+ Students</span>
+            </div>
+            <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--dark); margin-bottom: 12px;">
+              Earn While You Learn
+            </h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; margin-bottom: 24px;">
+              Build skills and earn money working on real projects for leading startups. Gain experience certificates and become financially confident.
+            </p>
+            <ul style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 28px; font-size: 0.875rem; color: var(--text-secondary);">
+              <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 8px;"></i> Flexible hours tailored around school and college</li>
+              <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 8px;"></i> Direct UPI and bank payouts for milestones</li>
+              <li><i class="fa-solid fa-check" style="color: var(--secondary); margin-right: 8px;"></i> Recognized certificates for university admissions</li>
+            </ul>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="teen.html" class="btn btn-secondary" style="flex: 1;">
+                Explore Teen Portal <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE IMPACT TICKER (STATISTICS) -->
+    <section class="section section-dark" id="statistics">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="section-badge badge-green">Ecosystem Numbers</div>
+          <h2 class="section-title">Scale That Drives Real Economic Impact</h2>
+          <p class="section-desc">Connecting energetic talent with modern enterprises across India and globally.</p>
+        </header>
+
+        <div class="stats-grid">
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <div class="stat-number" data-count="70" data-suffix="L+">0</div>
+            <div class="stat-label">Students Registered</div>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="stat-icon green"><i class="fa-solid fa-building-columns"></i></div>
+            <div class="stat-number" data-count="5000" data-suffix="+">0</div>
+            <div class="stat-label">Companies Hiring</div>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="stat-icon amber"><i class="fa-solid fa-city"></i></div>
+            <div class="stat-number" data-count="250" data-suffix="+">0</div>
+            <div class="stat-label">Cities Nationwide</div>
+          </div>
+          <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+            <div class="stat-icon green"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+            <div class="stat-number" data-count="50" data-prefix="₹" data-suffix="Cr+">0</div>
+            <div class="stat-label">Transferred In Escrow</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ECOSYSTEM HIGHLIGHTS -->
+    <section class="section section-gradient" id="ecosystem">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="section-badge">Revamp Highlights</div>
+          <h2 class="section-title">Crafted With Modern Web Standards</h2>
+          <p class="section-desc">
+            A masterclass in responsive architecture, accessibility, Glassmorphism, and 95+ Lighthouse performance.
+          </p>
+        </header>
+
+        <div class="features-grid-4">
+          <article class="feature-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="feature-title">Pure Vanilla Stack</h3>
+            <p class="feature-desc">Zero heavy frameworks. Built exclusively with semantic HTML5, modular CSS3, and high-performance Vanilla JavaScript.</p>
+          </article>
+
+          <article class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-icon-wrapper green">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3 class="feature-title">Zero Overflow Mobile</h3>
+            <p class="feature-desc">Engineered desktop-first precision with mobile-first code. Rigorously tested across mobile, tablet, laptop, and 4K viewports.</p>
+          </article>
+
+          <article class="feature-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-icon-wrapper amber">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <h3 class="feature-title">Comprehensive SEO</h3>
+            <p class="feature-desc">Rich JSON-LD schemas, complete Open Graph and Twitter Card tags, canonical references, robots.txt, and sitemap.xml.</p>
+          </article>
+
+          <article class="feature-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-icon-wrapper">
+              <i class="fa-solid fa-universal-access"></i>
+            </div>
+            <h3 class="feature-title">WCAG AA Accessible</h3>
+            <p class="feature-desc">Semantic HTML5 tags, ARIA attributes on dynamic controls, keyboard-friendly accordion, and high-contrast color ratios.</p>
+          </article>
+        </div>
+
+        <!-- SEO Audit Report Banner Callout -->
+        <div class="glass-card" style="margin-top: 48px; border: 2px dashed var(--primary); background: rgba(37, 99, 235, 0.04);" data-aos="fade-up">
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px;">
+            <div>
+              <span class="section-badge" style="margin-bottom: 8px;"><i class="fa-solid fa-award"></i> Verification Ready</span>
+              <h3 style="font-size: 1.35rem; font-weight: 700; color: var(--dark);">Looking for the Complete SEO Audit Report?</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9375rem; margin-top: 4px;">
+                Includes Meta Tags analysis, Headings hierarchy, Core Web Vitals, On-Page & Off-Page recommendations, and Keyword Strategy.
+              </p>
+            </div>
+            <a href="seo-audit-report.html" class="btn btn-primary">
+              <i class="fa-solid fa-file-lines"></i> Open SEO Audit Report
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: var(--white); margin-bottom: 16px;">
+            <div class="logo-symbol"><i class="fa-solid fa-bolt"></i></div>
+            <span>funn<span class="brand-accent">gro</span></span>
+          </a>
+          <p class="footer-about">
+            A production-ready website redesign inspired by the purpose of Funngro. Demonstrating elite UI/UX, frontend engineering, and SEO performance.
+          </p>
+          <div class="footer-socials">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Portals</h4>
+          <ul class="footer-links">
+            <li><a href="company.html">For Companies</a></li>
+            <li><a href="teen.html">For Teens & Students</a></li>
+            <li><a href="index.html">Dual Hub Home</a></li>
+            <li><a href="company.html#pricing">Employer Pricing</a></li>
+            <li><a href="teen.html#referral">Student Referral</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Deliverables</h4>
+          <ul class="footer-links">
+            <li><a href="seo-audit-report.html">SEO Audit Report</a></li>
+            <li><a href="sitemap.xml">sitemap.xml</a></li>
+            <li><a href="robots.txt">robots.txt</a></li>
+            <li><a href="README.md">Project README</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Specifications</h4>
+          <ul class="footer-links">
+            <li><a href="#">HTML5 / CSS3</a></li>
+            <li><a href="#">Vanilla JavaScript</a></li>
+            <li><a href="#">AOS Animations</a></li>
+            <li><a href="#">Google Fonts Poppins</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Newsletter</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 14px; color: #94A3B8;">Stay tuned with redesign updates and developer insights.</p>
+          <form class="newsletter-form" id="home-newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email" required aria-label="Email for updates">
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Funngro Website Revamp. Pure HTML5, CSS3, Vanilla JS. Completely original design.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Parent Consent Guidelines</a>
+          <a href="#">Escrow Rules</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top of page">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 60
+    });
+  </script>
+
+  <!-- Core Vanilla JavaScript -->
+  <script type="module" src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1177 @@
+/* ==========================================================================
+   COMPANY PORTAL THEME - CORPORATE / ENTERPRISE DASHBOARD
+   Visual Identity: Professional, Corporate, Premium Business Dashboard
+   Primary: Royal Blue (#2563EB)
+   Secondary: Navy (#0F172A)
+   Accent: White (#FFFFFF) & Electric Slate
+   ========================================================================== */
+
+/* Corporate CSS Variables */
+body.company-portal {
+  --comp-primary: #2563EB;
+  --comp-primary-dark: #1D4ED8;
+  --comp-primary-light: #EFF6FF;
+  --comp-primary-glow: rgba(37, 99, 235, 0.22);
+  
+  --comp-navy: #0F172A;
+  --comp-navy-surface: #1E293B;
+  --comp-navy-muted: #334155;
+  --comp-navy-border: #475569;
+
+  --comp-accent: #FFFFFF;
+  --comp-border: #E2E8F0;
+  --comp-bg: #F8FAFC;
+  --comp-card-bg: #FFFFFF;
+
+  --comp-radius-sm: 8px;
+  --comp-radius-md: 12px;
+  --comp-radius-lg: 16px;
+
+  background-color: var(--comp-bg);
+  color: var(--comp-navy);
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* --------------------------------------------------------------------------
+   Company Navigation & Top Bar
+   -------------------------------------------------------------------------- */
+body.company-portal .top-ecosystem-bar {
+  background: var(--comp-navy);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.company-portal .site-header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid var(--comp-border);
+}
+
+body.company-portal .brand-logo .logo-symbol {
+  background: linear-gradient(135deg, var(--comp-primary) 0%, #1E40AF 100%);
+  border-radius: var(--comp-radius-sm);
+  color: #ffffff;
+  box-shadow: 0 4px 12px var(--comp-primary-glow);
+}
+
+body.company-portal .brand-accent {
+  color: var(--comp-primary);
+}
+
+body.company-portal .nav-link:hover,
+body.company-portal .nav-link.active {
+  color: var(--comp-primary);
+}
+
+body.company-portal .nav-link.active::after {
+  background: var(--comp-primary);
+  border-radius: 2px;
+}
+
+/* Sharp Corporate Buttons */
+body.company-portal .btn-primary {
+  background: var(--comp-primary);
+  color: #FFFFFF;
+  border-radius: var(--comp-radius-sm);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 14px var(--comp-primary-glow);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body.company-portal .btn-primary:hover {
+  background: var(--comp-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+}
+
+body.company-portal .btn-outline {
+  border: 1.5px solid var(--comp-border);
+  color: var(--comp-navy);
+  background: #FFFFFF;
+  border-radius: var(--comp-radius-sm);
+  font-weight: 600;
+}
+
+body.company-portal .btn-outline:hover {
+  border-color: var(--comp-primary);
+  color: var(--comp-primary);
+  background: var(--comp-primary-light);
+}
+
+body.company-portal .btn-navy {
+  background: var(--comp-navy);
+  color: #FFFFFF;
+  border-radius: var(--comp-radius-sm);
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+body.company-portal .btn-navy:hover {
+  background: var(--comp-navy-surface);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.25);
+}
+
+/* --------------------------------------------------------------------------
+   Company Hero Section
+   -------------------------------------------------------------------------- */
+body.company-portal .company-hero {
+  position: relative;
+  padding: 100px 0 80px;
+  background: radial-gradient(circle at 80% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 60%),
+              radial-gradient(circle at 10% 80%, rgba(15, 23, 42, 0.04) 0%, transparent 50%),
+              #F8FAFC;
+  overflow: hidden;
+  border-bottom: 1px solid var(--comp-border);
+}
+
+.corporate-grid-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(to right, rgba(226, 232, 240, 0.6) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.6) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.corporate-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: #EFF6FF;
+  border: 1px solid #BFDBFE;
+  border-radius: var(--comp-radius-sm);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--comp-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+.company-hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--comp-navy);
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.company-hero-title .highlight-blue {
+  color: var(--comp-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.company-hero-subtitle {
+  font-size: 1.15rem;
+  line-height: 1.65;
+  color: #475569;
+  max-width: 580px;
+  margin-bottom: 32px;
+}
+
+.corporate-hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.corporate-trust-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 24px;
+  border-top: 1px solid var(--comp-border);
+}
+
+.corp-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.corp-trust-item i {
+  color: var(--comp-primary);
+  font-size: 1rem;
+}
+
+/* Hero Visual & Enterprise Frame */
+.corporate-visual-frame {
+  position: relative;
+  background: #FFFFFF;
+  border-radius: var(--comp-radius-md);
+  border: 1px solid var(--comp-border);
+  box-shadow: 0 20px 40px -10px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(37, 99, 235, 0.05);
+  overflow: hidden;
+}
+
+.corporate-window-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: #F1F5F9;
+  border-bottom: 1px solid var(--comp-border);
+}
+
+.window-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.window-dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-red { background: #EF4444; }
+.dot-yellow { background: #F59E0B; }
+.dot-green { background: #10B981; }
+
+.window-meta {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #64748B;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-indicator {
+  width: 8px;
+  height: 8px;
+  background: #10B981;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+/* --------------------------------------------------------------------------
+   Why Companies Choose Us (Corporate Grid)
+   -------------------------------------------------------------------------- */
+.corp-features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.corp-feature-card {
+  background: #FFFFFF;
+  border: 1px solid var(--comp-border);
+  border-radius: var(--comp-radius-md);
+  padding: 32px 24px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.corp-feature-card:hover {
+  transform: translateY(-4px);
+  border-color: #BFDBFE;
+  box-shadow: 0 16px 32px -8px rgba(37, 99, 235, 0.12);
+}
+
+.corp-feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: transparent;
+  border-radius: var(--comp-radius-md) var(--comp-radius-md) 0 0;
+  transition: background 0.3s ease;
+}
+
+.corp-feature-card:hover::before {
+  background: var(--comp-primary);
+}
+
+.corp-icon-box {
+  width: 52px;
+  height: 52px;
+  background: #EFF6FF;
+  border-radius: var(--comp-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: var(--comp-primary);
+  margin-bottom: 20px;
+}
+
+.corp-feature-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--comp-navy);
+  margin-bottom: 12px;
+}
+
+.corp-feature-desc {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.corp-feature-metric {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--comp-primary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-top: 1px solid #F1F5F9;
+  padding-top: 14px;
+}
+
+/* --------------------------------------------------------------------------
+   Analytics Dashboard Section (Enterprise Feature)
+   -------------------------------------------------------------------------- */
+.analytics-dashboard-wrapper {
+  background: #0F172A;
+  border-radius: var(--comp-radius-lg);
+  border: 1px solid #334155;
+  color: #FFFFFF;
+  padding: 40px;
+  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.35);
+  margin-top: 32px;
+}
+
+.analytics-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #334155;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.analytics-title-group h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.analytics-title-group p {
+  font-size: 0.875rem;
+  color: #94A3B8;
+  margin-top: 4px;
+}
+
+.analytics-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.dashboard-pill {
+  background: #1E293B;
+  border: 1px solid #475569;
+  color: #E2E8F0;
+  padding: 6px 14px;
+  border-radius: var(--comp-radius-sm);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dashboard-pill.active,
+.dashboard-pill:hover {
+  background: var(--comp-primary);
+  border-color: var(--comp-primary);
+  color: #FFFFFF;
+}
+
+.analytics-grid-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+/* Talent Distribution Bars */
+.analytics-card {
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: var(--comp-radius-md);
+  padding: 24px;
+}
+
+.analytics-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.analytics-card-header h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #F8FAFC;
+}
+
+.domain-bar-item {
+  margin-bottom: 16px;
+}
+
+.domain-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #CBD5E1;
+  margin-bottom: 6px;
+}
+
+.domain-progress-track {
+  height: 8px;
+  background: #334155;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.domain-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--comp-primary) 0%, #60A5FA 100%);
+  border-radius: 4px;
+  transition: width 1s ease-in-out;
+}
+
+/* ROI Cost Savings Simulator */
+.roi-calc-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.roi-slider-group {
+  margin: 16px 0 24px;
+}
+
+.roi-slider-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #CBD5E1;
+  margin-bottom: 10px;
+}
+
+.roi-slider-label strong {
+  color: #60A5FA;
+  font-size: 1.1rem;
+}
+
+.roi-range-input {
+  width: 100%;
+  height: 6px;
+  background: #334155;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  accent-color: var(--comp-primary);
+}
+
+.roi-comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background: #0F172A;
+  border-radius: var(--comp-radius-sm);
+  padding: 16px;
+  border: 1px solid #334155;
+}
+
+.roi-col-agency {
+  border-right: 1px solid #334155;
+  padding-right: 12px;
+}
+
+.roi-col-funngro {
+  padding-left: 6px;
+}
+
+.roi-col-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94A3B8;
+  margin-bottom: 4px;
+}
+
+.roi-col-val {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #F8FAFC;
+}
+
+.roi-savings-badge {
+  margin-top: 16px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid #10B981;
+  padding: 10px 16px;
+  border-radius: var(--comp-radius-sm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roi-savings-badge span {
+  font-size: 0.875rem;
+  color: #D1FAE5;
+}
+
+.roi-savings-badge strong {
+  font-size: 1.125rem;
+  color: #10B981;
+}
+
+/* Real-time Sprint Timeline Tracker */
+.sprints-tracker-row {
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: var(--comp-radius-md);
+  padding: 20px 24px;
+}
+
+.sprint-feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.sprint-feed-header h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #F8FAFC;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sprint-items-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.sprint-item-card {
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: var(--comp-radius-sm);
+  padding: 14px;
+}
+
+.sprint-item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #94A3B8;
+  margin-bottom: 6px;
+}
+
+.sprint-status-tag {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.status-active { background: rgba(37, 99, 235, 0.25); color: #93C5FD; border: 1px solid #3B82F6; }
+.status-review { background: rgba(245, 158, 11, 0.2); color: #FCD34D; border: 1px solid #F59E0B; }
+.status-done { background: rgba(16, 185, 129, 0.2); color: #6EE7B7; border: 1px solid #10B981; }
+
+.sprint-task-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #F8FAFC;
+  margin-bottom: 4px;
+}
+
+.sprint-talent-meta {
+  font-size: 0.75rem;
+  color: #64748B;
+}
+
+/* --------------------------------------------------------------------------
+   Project Categories (Corporate View)
+   -------------------------------------------------------------------------- */
+.corp-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.corp-category-card {
+  background: #FFFFFF;
+  border: 1px solid var(--comp-border);
+  border-radius: var(--comp-radius-md);
+  padding: 28px 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.corp-category-card:hover {
+  border-color: var(--comp-primary);
+  box-shadow: 0 12px 28px -6px rgba(37, 99, 235, 0.15);
+  transform: translateY(-4px);
+}
+
+.corp-cat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--comp-radius-sm);
+  background: #EFF6FF;
+  color: var(--comp-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+.corp-cat-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--comp-navy);
+  margin-bottom: 8px;
+}
+
+.corp-cat-meta {
+  font-size: 0.8125rem;
+  color: #64748B;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.corp-cat-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--comp-primary);
+  background: #F1F5F9;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.corp-cat-btn {
+  padding: 8px 12px;
+  border-radius: var(--comp-radius-sm);
+  background: #F8FAFC;
+  border: 1px solid var(--comp-border);
+  color: var(--comp-navy);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.corp-cat-btn:hover {
+  background: var(--comp-primary);
+  border-color: var(--comp-primary);
+  color: #FFFFFF;
+}
+
+/* --------------------------------------------------------------------------
+   Statistics Cards (Corporate Precision)
+   -------------------------------------------------------------------------- */
+.corp-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.corp-stat-card {
+  background: #FFFFFF;
+  border: 1px solid var(--comp-border);
+  border-radius: var(--comp-radius-md);
+  padding: 32px 24px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.corp-stat-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--comp-primary);
+}
+
+.corp-stat-number {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: var(--comp-navy);
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.corp-stat-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--comp-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.corp-stat-sub {
+  font-size: 0.8125rem;
+  color: #64748B;
+}
+
+/* --------------------------------------------------------------------------
+   Timeline Hiring Process (Step-by-Step Enterprise Flow)
+   -------------------------------------------------------------------------- */
+.corp-timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.corp-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: #E2E8F0;
+  transform: translateX(-50%);
+}
+
+.timeline-step-item {
+  position: relative;
+  margin-bottom: 40px;
+  width: 50%;
+  padding: 0 36px;
+}
+
+.timeline-step-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-step-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-marker {
+  position: absolute;
+  top: 10px;
+  width: 28px;
+  height: 28px;
+  background: var(--comp-primary);
+  border: 4px solid #EFF6FF;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--comp-primary);
+  z-index: 2;
+}
+
+.timeline-step-item:nth-child(odd) .timeline-marker {
+  right: -14px;
+}
+
+.timeline-step-item:nth-child(even) .timeline-marker {
+  left: -14px;
+}
+
+.timeline-card-content {
+  background: #FFFFFF;
+  border: 1px solid var(--comp-border);
+  border-radius: var(--comp-radius-md);
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+  transition: all 0.3s ease;
+}
+
+.timeline-card-content:hover {
+  border-color: var(--comp-primary);
+  box-shadow: 0 10px 24px -4px rgba(37, 99, 235, 0.15);
+}
+
+.timeline-step-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--comp-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+
+.timeline-step-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--comp-navy);
+  margin-bottom: 8px;
+}
+
+.timeline-step-desc {
+  font-size: 0.875rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------------
+   Corporate Testimonials
+   -------------------------------------------------------------------------- */
+.corp-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.corp-testimonial-card {
+  background: #FFFFFF;
+  border: 1px solid var(--comp-border);
+  border-radius: var(--comp-radius-md);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+}
+
+.corp-quote-icon {
+  font-size: 1.75rem;
+  color: #BFDBFE;
+  margin-bottom: 16px;
+}
+
+.corp-testimonial-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #334155;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+.corp-client-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid #F1F5F9;
+  padding-top: 18px;
+}
+
+.corp-client-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--comp-radius-sm);
+  background: #1E293B;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.corp-client-info h4 {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--comp-navy);
+}
+
+.corp-client-info p {
+  font-size: 0.75rem;
+  color: #64748B;
+}
+
+/* --------------------------------------------------------------------------
+   Pricing Section (Corporate Tiers)
+   -------------------------------------------------------------------------- */
+.corp-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.corp-pricing-card {
+  background: #FFFFFF;
+  border: 1px solid var(--comp-border);
+  border-radius: var(--comp-radius-md);
+  padding: 36px 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.corp-pricing-card.featured {
+  border-color: var(--comp-primary);
+  box-shadow: 0 20px 40px -10px rgba(37, 99, 235, 0.2);
+  transform: scale(1.03);
+  z-index: 2;
+}
+
+.corp-plan-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--comp-primary);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 14px;
+  border-radius: 4px;
+}
+
+.corp-plan-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--comp-navy);
+  margin-bottom: 8px;
+}
+
+.corp-plan-desc {
+  font-size: 0.875rem;
+  color: #64748B;
+  margin-bottom: 24px;
+}
+
+.corp-plan-price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--comp-navy);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.corp-plan-price span {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #64748B;
+}
+
+.corp-plan-features {
+  margin-bottom: 32px;
+  flex-grow: 1;
+}
+
+.corp-plan-features li {
+  font-size: 0.875rem;
+  color: #334155;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.corp-plan-features li i {
+  color: var(--comp-primary);
+  font-size: 0.8125rem;
+}
+
+/* --------------------------------------------------------------------------
+   Business Contact Form (Corporate RFP Form)
+   -------------------------------------------------------------------------- */
+.corp-contact-section {
+  background: #0F172A;
+  color: #FFFFFF;
+  border-radius: var(--comp-radius-lg);
+  padding: 60px 48px;
+  margin: 40px 0;
+}
+
+.corp-contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.corp-contact-info h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.corp-contact-info p {
+  font-size: 1rem;
+  color: #94A3B8;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.corp-hotline-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  color: #CBD5E1;
+  font-size: 0.9375rem;
+}
+
+.corp-hotline-item i {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--comp-radius-sm);
+  background: #1E293B;
+  border: 1px solid #334155;
+  color: #60A5FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corp-rfp-form {
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: var(--comp-radius-md);
+  padding: 32px;
+}
+
+.form-group-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.corp-form-field {
+  margin-bottom: 16px;
+}
+
+.corp-form-field label {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #E2E8F0;
+  margin-bottom: 6px;
+}
+
+.corp-input {
+  width: 100%;
+  padding: 12px 16px;
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: var(--comp-radius-sm);
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.corp-input:focus {
+  border-color: var(--comp-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+}
+
+.corp-select {
+  width: 100%;
+  padding: 12px 16px;
+  background: #0F172A;
+  border: 1px solid #334155;
+  border-radius: var(--comp-radius-sm);
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------------------------
+   Premium Corporate Footer
+   -------------------------------------------------------------------------- */
+body.company-portal .corporate-footer {
+  background: #0F172A;
+  color: #94A3B8;
+  border-top: 1px solid #1E293B;
+  padding: 80px 0 30px;
+}
+
+.corp-footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.2fr;
+  gap: 48px;
+  margin-bottom: 60px;
+}
+
+.corp-footer-col h4 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+}
+
+.corp-footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.corp-footer-col ul li a {
+  color: #94A3B8;
+  font-size: 0.875rem;
+  transition: color 0.2s ease;
+}
+
+.corp-footer-col ul li a:hover {
+  color: #FFFFFF;
+}
+
+.corp-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid #1E293B;
+  font-size: 0.8125rem;
+}
+
+.compliance-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.comp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: #CBD5E1;
+  background: #1E293B;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid #334155;
+}

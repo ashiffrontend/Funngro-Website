@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Earn While You Learn | Funngro Teen Talent Portal</title>
+  <meta name="title" content="Earn While You Learn | Funngro Teen Talent Portal">
+  <meta name="description" content="Build real-world digital skills, get verified certificates, and earn money working on creative freelance projects for top companies while in school or college.">
+  <meta name="keywords" content="earn money for teens, teen freelancing, student jobs, learn web design, high school side hustle, teen portfolio, teen internship, gamified teen rewards">
+  <meta name="author" content="Funngro">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://funngro-revamp.vercel.app/teen.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://funngro-revamp.vercel.app/teen.html">
+  <meta property="og:title" content="Earn While You Learn | Funngro Teen Talent Portal">
+  <meta property="og:description" content="Build real skills, earn pocket money, and build a verified portfolio with real company projects. 70L+ students learning and earning.">
+  <meta property="og:image" content="https://funngro-revamp.vercel.app/images/teen-hero.svg">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://funngro-revamp.vercel.app/teen.html">
+  <meta name="twitter:title" content="Earn While You Learn | Funngro Teen Talent Portal">
+  <meta name="twitter:description" content="Build skills, earn pocket money, and build a verified portfolio with real company projects.">
+  <meta name="twitter:image" content="https://funngro-revamp.vercel.app/images/teen-hero.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/teen-theme.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+
+  <!-- JSON-LD Structured Data: EducationalOrganization & Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://funngro-revamp.vercel.app/#organization",
+        "name": "Funngro",
+        "url": "https://funngro-revamp.vercel.app",
+        "logo": "https://funngro-revamp.vercel.app/images/favicon.svg"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://funngro-revamp.vercel.app/teen.html#webpage",
+        "url": "https://funngro-revamp.vercel.app/teen.html",
+        "name": "Earn While You Learn | Funngro Teen Talent Portal",
+        "isPartOf": {
+          "@id": "https://funngro-revamp.vercel.app/#website"
+        },
+        "description": "Build real-world digital skills, get verified certificates, and earn money by working on freelance projects for top companies."
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="teen-portal">
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Header & Navigation (1280px Max Width, 80px Height, 0 0 24px 24px Radius) -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <!-- Left: Logo & Badge (20px margin) -->
+      <div class="header-left">
+        <a href="index.html" class="brand-logo" aria-label="Funngro Homepage">
+          <div class="logo-symbol" style="background: linear-gradient(135deg, #10B981 0%, #059669 100%);"><i class="fa-solid fa-rocket"></i></div>
+          <span>funn<span class="brand-accent" style="color: #10B981;">gro</span></span>
+        </a>
+        <span class="enterprise-badge" style="background: #ECFDF5; color: #059669; border-color: #A7F3D0;"><i class="fa-solid fa-graduation-cap"></i> Teens Hub</span>
+      </div>
+
+      <!-- Center Menu: ONLY Home, Company, Teen, Pricing, Contact (32px Gap) -->
+      <nav class="header-center" aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="company.html" class="nav-link">Company</a></li>
+          <li class="nav-item"><a href="teen.html" class="nav-link active">Teen</a></li>
+          <li class="nav-item"><a href="#rewards" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#referral" class="nav-link">Contact</a></li>
+          
+          <!-- Mobile Drawer Action Buttons -->
+          <li class="drawer-actions">
+            <button class="btn-hire-filled drawer-btn" data-modal="teen-signup-modal" style="background: #10B981; border-color: #059669;">
+              <i class="fa-solid fa-bolt"></i> Start Earning
+            </button>
+            <button class="btn-login-outline drawer-btn" data-modal="teen-login-modal">
+              <i class="fa-regular fa-user"></i> Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right: Outline Login Button & Primary Hire/Join Button (16px Gap, 48px Height, Max 160px Width) -->
+      <div class="header-right">
+        <button class="btn-login-outline" data-modal="teen-login-modal" aria-label="Student Sign In">
+          <i class="fa-regular fa-user"></i> Login
+        </button>
+        <button class="btn-hire-filled" data-modal="teen-signup-modal" aria-label="Register as teen" style="background: #10B981; border-color: #059669; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.28);">
+          Start Earning <i class="fa-solid fa-arrow-right" style="font-size: 0.75rem; margin-left: 4px;"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Controls: Login Button Only + Hamburger Menu -->
+      <div class="header-mobile-controls">
+        <button class="btn-login-outline btn-mobile-login" data-modal="teen-login-modal" aria-label="Student Sign In">
+          Login
+        </button>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    <!-- 1. HERO SECTION (ANIMATED GRADIENT & FLOATING SHAPES) -->
+    <section class="teen-hero" id="hero">
+      <!-- Animated Floating Background Blobs -->
+      <div class="floating-mesh-blob blob-green"></div>
+      <div class="floating-mesh-blob blob-purple"></div>
+      <div class="floating-mesh-blob blob-yellow"></div>
+
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="hero-grid" style="align-items: center;">
+          <div class="hero-content" data-aos="fade-right">
+            <div class="teen-badge-pill">
+              <i class="fa-solid fa-sparkles" style="color: var(--teen-yellow);"></i> India's #1 Platform for Teen Freelancers
+            </div>
+            
+            <h1 class="teen-hero-title">
+              Earn While <span class="teen-gradient-text">You Learn</span>
+            </h1>
+
+            <p class="teen-hero-subtitle">
+              Work on exciting live projects for real companies, build a stellar portfolio, earn your first income, and unlock epic tech rewards.
+            </p>
+
+            <div class="teen-hero-buttons">
+              <button class="btn-teen-primary" data-modal="teen-signup-modal">
+                <i class="fa-solid fa-gamepad"></i> Start Earning
+              </button>
+              <a href="#discord-community" class="btn-teen-secondary">
+                <i class="fa-brands fa-discord"></i> Join Community
+              </a>
+            </div>
+
+            <!-- Gamified Stats Counter Bar -->
+            <div style="display: flex; gap: 24px; flex-wrap: wrap; margin-top: 10px;">
+              <div>
+                <span style="font-size: 1.5rem; font-weight: 800; color: var(--teen-green); display: block;">₹50Cr+</span>
+                <span style="font-size: 0.8125rem; color: #94A3B8;">Paid to Students</span>
+              </div>
+              <div style="border-left: 1px solid rgba(255,255,255,0.1); padding-left: 24px;">
+                <span style="font-size: 1.5rem; font-weight: 800; color: var(--teen-yellow); display: block;">70L+</span>
+                <span style="font-size: 0.8125rem; color: #94A3B8;">Registered Teens</span>
+              </div>
+              <div style="border-left: 1px solid rgba(255,255,255,0.1); padding-left: 24px;">
+                <span style="font-size: 1.5rem; font-weight: 800; color: #38BDF8; display: block;">5,000+</span>
+                <span style="font-size: 0.8125rem; color: #94A3B8;">Hiring Brands</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Illustration Area (With Floating Icons: Laptop, Coins, Rocket, Stars) -->
+          <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+            <div class="hero-visual-stage">
+              <!-- Floating Icon 1: Laptop -->
+              <div class="floating-hero-sticker sticker-laptop">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Code &amp; Create</span>
+              </div>
+
+              <!-- Floating Icon 2: Coins -->
+              <div class="floating-hero-sticker sticker-coins">
+                <i class="fa-solid fa-coins"></i>
+                <span>₹1,500 Earned</span>
+              </div>
+
+              <!-- Floating Icon 3: Rocket -->
+              <div class="floating-hero-sticker sticker-rocket">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Level Up!</span>
+              </div>
+
+              <!-- Floating Icon 4: Stars -->
+              <div class="floating-hero-sticker sticker-stars">
+                <i class="fa-solid fa-star"></i>
+                <span>5.0 Rated</span>
+              </div>
+
+              <!-- Teen Illustration SVG -->
+              <img src="/images/teen-hero.svg" alt="Creative young teen freelancer earning and coding on a modern futuristic laptop" class="hero-illustration-svg" width="600" height="500">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. BENEFITS SECTION -->
+    <section class="section" id="benefits">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Why Join the Squad?</div>
+          <h2 class="section-title">Everything You Need to Win</h2>
+          <p class="section-desc">
+            No boring classroom lectures. Get real experience, earn real money, and stand out when applying for college or your dream job.
+          </p>
+        </header>
+
+        <div class="teen-benefits-grid">
+          <!-- Benefit 1: Earn Money -->
+          <article class="teen-benefit-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="teen-card-glow-bg glow-green"></div>
+            <div class="teen-icon-bubble bubble-green">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+            </div>
+            <h3 class="teen-benefit-title">Earn Money</h3>
+            <p class="teen-benefit-desc">
+              Get paid directly for every completed gig into your verified bank account, UPI, or savings card. Buy your own gadgets and achieve early financial freedom.
+            </p>
+            <div class="teen-benefit-tag">
+              <i class="fa-solid fa-wallet"></i> Guaranteed Escrow Payouts
+            </div>
+          </article>
+
+          <!-- Benefit 2: Build Portfolio -->
+          <article class="teen-benefit-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="teen-card-glow-bg glow-purple"></div>
+            <div class="teen-icon-bubble bubble-purple">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h3 class="teen-benefit-title">Build Portfolio</h3>
+            <p class="teen-benefit-desc">
+              Showcase real commercial projects worked on for actual registered companies. Stand out leaps ahead of your peers in college and university admissions.
+            </p>
+            <div class="teen-benefit-tag">
+              <i class="fa-solid fa-link"></i> Shareable Live Portfolio Link
+            </div>
+          </article>
+
+          <!-- Benefit 3: Learn Skills -->
+          <article class="teen-benefit-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="teen-card-glow-bg glow-yellow"></div>
+            <div class="teen-icon-bubble bubble-yellow">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3 class="teen-benefit-title">Learn Skills</h3>
+            <p class="teen-benefit-desc">
+              Master in-demand digital weapons: Tailwind, Figma, CapCut, AI prompt engineering, SEO writing, and video storytelling through real client mentorship.
+            </p>
+            <div class="teen-benefit-tag">
+              <i class="fa-solid fa-graduation-cap"></i> Guided by Senior Mentors
+            </div>
+          </article>
+
+          <!-- Benefit 4: Certificates -->
+          <article class="teen-benefit-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="teen-card-glow-bg glow-cyan"></div>
+            <div class="teen-icon-bubble bubble-cyan">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="teen-benefit-title">Certificates</h3>
+            <p class="teen-benefit-desc">
+              Receive verified digital certificates signed by client executives for every successful milestone, easily verifiable on LinkedIn and resumes.
+            </p>
+            <div class="teen-benefit-tag">
+              <i class="fa-solid fa-certificate"></i> Verifiable Credential Badges
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. AVAILABLE PROJECTS (GIG BROWSER) -->
+    <section class="section" id="projects" style="background: var(--teen-surface);">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Explore Open Gigs</div>
+          <h2 class="section-title">Available Projects</h2>
+          <p class="section-desc">Pick projects that match your skills, apply in 1-click, and deliver on your own time schedule.</p>
+        </header>
+
+        <!-- Filter Tabs -->
+        <div class="teen-projects-topbar" data-aos="fade-up">
+          <div class="teen-cat-filters">
+            <button class="teen-filter-btn active" data-filter="all">All Gigs (184)</button>
+            <button class="teen-filter-btn" data-filter="web">Web Design</button>
+            <button class="teen-filter-btn" data-filter="video">Video Editing</button>
+            <button class="teen-filter-btn" data-filter="ai">AI Tools</button>
+            <button class="teen-filter-btn" data-filter="writing">Writing</button>
+            <button class="teen-filter-btn" data-filter="marketing">Marketing</button>
+          </div>
+          <div style="font-size: 0.8125rem; color: #94A3B8;">
+            <i class="fa-solid fa-circle" style="color: var(--teen-green); font-size: 0.6rem;"></i> 28 Gigs posted today
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="teen-projects-grid">
+          <!-- Gig 1: Web Design -->
+          <article class="teen-project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card-header">
+              <span class="payout-pill">₹2,800 Payout</span>
+              <div class="difficulty-stars" title="Difficulty: Moderate">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Build a Responsive Coffee Shop Landing Page</h3>
+            <p class="project-desc">Create a mobile-friendly one-page website with menu cards and an order modal using HTML/Tailwind CSS.</p>
+            <div class="project-meta-chips">
+              <span class="meta-chip"><i class="fa-regular fa-clock"></i> 3 Days</span>
+              <span class="meta-chip"><i class="fa-solid fa-code"></i> HTML5/CSS3</span>
+              <span class="meta-chip"><i class="fa-solid fa-users"></i> 4 Applicants</span>
+            </div>
+            <button class="apply-gig-btn" data-modal="teen-signup-modal">
+              <i class="fa-solid fa-bolt"></i> Claim Gig
+            </button>
+          </article>
+
+          <!-- Gig 2: Video Editing -->
+          <article class="teen-project-card" data-category="video" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card-header">
+              <span class="payout-pill">₹1,900 Payout</span>
+              <div class="difficulty-stars" title="Difficulty: Easy">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Edit 5 Viral Instagram Reels with Subtitles</h3>
+            <p class="project-desc">Cut raw podcast clips into high-energy 30-sec reels with dynamic kinetic typography and sound effects.</p>
+            <div class="project-meta-chips">
+              <span class="meta-chip"><i class="fa-regular fa-clock"></i> 48 Hours</span>
+              <span class="meta-chip"><i class="fa-solid fa-scissors"></i> CapCut / Premiere</span>
+              <span class="meta-chip"><i class="fa-solid fa-users"></i> 9 Applicants</span>
+            </div>
+            <button class="apply-gig-btn" data-modal="teen-signup-modal">
+              <i class="fa-solid fa-bolt"></i> Claim Gig
+            </button>
+          </article>
+
+          <!-- Gig 3: AI -->
+          <article class="teen-project-card" data-category="ai" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card-header">
+              <span class="payout-pill">₹2,400 Payout</span>
+              <div class="difficulty-stars" title="Difficulty: Moderate">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Generate 30 Product Visuals using Midjourney</h3>
+            <p class="project-desc">Prompt engineer realistic packaging mockups and aesthetic lifestyle backgrounds for a clean skincare brand.</p>
+            <div class="project-meta-chips">
+              <span class="meta-chip"><i class="fa-regular fa-clock"></i> 2 Days</span>
+              <span class="meta-chip"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Prompting</span>
+              <span class="meta-chip"><i class="fa-solid fa-users"></i> 6 Applicants</span>
+            </div>
+            <button class="apply-gig-btn" data-modal="teen-signup-modal">
+              <i class="fa-solid fa-bolt"></i> Claim Gig
+            </button>
+          </article>
+
+          <!-- Gig 4: Writing -->
+          <article class="teen-project-card" data-category="writing" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card-header">
+              <span class="payout-pill">₹1,500 Payout</span>
+              <div class="difficulty-stars" title="Difficulty: Easy">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Write 3 Tech Blog Articles on Gen-Z Trends</h3>
+            <p class="project-desc">Draft 800-word engaging, SEO-optimized articles about how teenagers are using AI tools for homework and hobbies.</p>
+            <div class="project-meta-chips">
+              <span class="meta-chip"><i class="fa-regular fa-clock"></i> 3 Days</span>
+              <span class="meta-chip"><i class="fa-solid fa-pen-nib"></i> SEO Content</span>
+              <span class="meta-chip"><i class="fa-solid fa-users"></i> 7 Applicants</span>
+            </div>
+            <button class="apply-gig-btn" data-modal="teen-signup-modal">
+              <i class="fa-solid fa-bolt"></i> Claim Gig
+            </button>
+          </article>
+
+          <!-- Gig 5: Marketing -->
+          <article class="teen-project-card" data-category="marketing" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card-header">
+              <span class="payout-pill">₹3,200 Payout</span>
+              <div class="difficulty-stars" title="Difficulty: Advanced">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Design Discord Server &amp; Community Bot Flow</h3>
+            <p class="project-desc">Structure roles, onboarding rules channels, reaction roles, and automated welcome messages for a gaming brand.</p>
+            <div class="project-meta-chips">
+              <span class="meta-chip"><i class="fa-regular fa-clock"></i> 4 Days</span>
+              <span class="meta-chip"><i class="fa-brands fa-discord"></i> Community Ops</span>
+              <span class="meta-chip"><i class="fa-solid fa-users"></i> 5 Applicants</span>
+            </div>
+            <button class="apply-gig-btn" data-modal="teen-signup-modal">
+              <i class="fa-solid fa-bolt"></i> Claim Gig
+            </button>
+          </article>
+
+          <!-- Gig 6: Web Design -->
+          <article class="teen-project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-card-header">
+              <span class="payout-pill">₹2,200 Payout</span>
+              <div class="difficulty-stars" title="Difficulty: Moderate">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <h3 class="project-title">Figma UI Kit for an EdTech Mobile App</h3>
+            <p class="project-desc">Design 6 clean modern screen layouts in Figma including quiz screens, profile page, and streak badges.</p>
+            <div class="project-meta-chips">
+              <span class="meta-chip"><i class="fa-regular fa-clock"></i> 3 Days</span>
+              <span class="meta-chip"><i class="fa-brands fa-figma"></i> Figma UI</span>
+              <span class="meta-chip"><i class="fa-solid fa-users"></i> 8 Applicants</span>
+            </div>
+            <button class="apply-gig-btn" data-modal="teen-signup-modal">
+              <i class="fa-solid fa-bolt"></i> Claim Gig
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. LEADERBOARD (GAMIFIED PODIUM & RUNNER-UPS) -->
+    <section class="section" id="leaderboard">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Top Creators of the Week</div>
+          <h2 class="section-title">Weekly Creator Leaderboard</h2>
+          <p class="section-desc">Compete with your peers, climb the ranks, win bonus creator bounties, and get featured on the global hall of fame.</p>
+        </header>
+
+        <div class="teen-leaderboard-section" data-aos="zoom-in">
+          <!-- 3-Slot Podium (2nd, 1st, 3rd) -->
+          <div class="leaderboard-podium">
+            <!-- Rank 2: Silver -->
+            <div class="podium-slot rank-2">
+              <div class="podium-avatar-frame">
+                <div class="podium-avatar-img" style="background: #334155;">RS</div>
+              </div>
+              <div class="podium-creator-name">Riya S. (17)</div>
+              <div class="podium-creator-tag">UI/UX Prodigy • 42 Gigs</div>
+              <div class="podium-earnings-tag">₹48,500 Earned</div>
+              <span style="font-size: 0.75rem; color: #94A3B8; margin-top: 6px;">Rank #2 (Silver)</span>
+            </div>
+
+            <!-- Rank 1: Gold (Center & Taller) -->
+            <div class="podium-slot rank-1">
+              <div class="crown-badge"><i class="fa-solid fa-crown"></i></div>
+              <div class="podium-avatar-frame">
+                <div class="podium-avatar-img" style="background: #1E293B;">AV</div>
+              </div>
+              <div class="podium-creator-name">Aryan V. (16)</div>
+              <div class="podium-creator-tag">Full-Stack Coder • 68 Gigs</div>
+              <div class="podium-earnings-tag">₹84,200 Earned</div>
+              <span style="font-size: 0.75rem; color: var(--teen-yellow); font-weight: 700; margin-top: 6px;">Champion of the Week</span>
+            </div>
+
+            <!-- Rank 3: Bronze -->
+            <div class="podium-slot rank-3">
+              <div class="podium-avatar-frame">
+                <div class="podium-avatar-img" style="background: #38271A;">DK</div>
+              </div>
+              <div class="podium-creator-name">Dev K. (18)</div>
+              <div class="podium-creator-tag">Video Wizard • 36 Gigs</div>
+              <div class="podium-earnings-tag">₹39,800 Earned</div>
+              <span style="font-size: 0.75rem; color: #CD7F32; margin-top: 6px;">Rank #3 (Bronze)</span>
+            </div>
+          </div>
+
+          <!-- Runner-Up List Rows -->
+          <div class="leaderboard-runner-list">
+            <!-- Runner 4 -->
+            <div class="runner-row">
+              <div class="runner-left">
+                <span class="runner-rank">#4</span>
+                <div class="runner-avatar-sm">TP</div>
+                <div class="runner-info">
+                  <h5>Tanvi Patel (16)</h5>
+                  <p>Content &amp; Research Specialist • Mumbai</p>
+                </div>
+              </div>
+              <div class="runner-right">
+                <span class="runner-xp"><i class="fa-solid fa-bolt"></i> 8,450 XP</span>
+                <span class="runner-earnings">₹32,400</span>
+              </div>
+            </div>
+
+            <!-- Runner 5 -->
+            <div class="runner-row">
+              <div class="runner-left">
+                <span class="runner-rank">#5</span>
+                <div class="runner-avatar-sm" style="background: linear-gradient(135deg, var(--teen-green), #0D9488);">AK</div>
+                <div class="runner-info">
+                  <h5>Ananya Kapoor (17)</h5>
+                  <p>AI Prompt Engineer &amp; Midjourney Creator • Delhi</p>
+                </div>
+              </div>
+              <div class="runner-right">
+                <span class="runner-xp"><i class="fa-solid fa-bolt"></i> 7,920 XP</span>
+                <span class="runner-earnings">₹29,100</span>
+              </div>
+            </div>
+
+            <!-- Runner 6 -->
+            <div class="runner-row">
+              <div class="runner-left">
+                <span class="runner-rank">#6</span>
+                <div class="runner-avatar-sm" style="background: linear-gradient(135deg, #F59E0B, #DC2626);">MK</div>
+                <div class="runner-info">
+                  <h5>Manish Kumar (15)</h5>
+                  <p>Frontend Bug Hunter &amp; Tailwind Dev • Bengaluru</p>
+                </div>
+              </div>
+              <div class="runner-right">
+                <span class="runner-xp"><i class="fa-solid fa-bolt"></i> 6,840 XP</span>
+                <span class="runner-earnings">₹24,600</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. REWARDS (CREATOR ROADMAP & SWAG) -->
+    <section class="section" id="rewards" style="background: #0B0F19;">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Level Up Your Game</div>
+          <h2 class="section-title">Creator Tier Rewards</h2>
+          <p class="section-desc">As you complete gigs, you level up to unlock higher project fees, exclusive merchandise, and mentorship calls.</p>
+        </header>
+
+        <div class="teen-rewards-grid">
+          <!-- Tier 1: Explorer -->
+          <article class="teen-reward-tier-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="tier-badge-icon tier-1"><i class="fa-solid fa-compass"></i></div>
+            <h3 class="tier-name">Level 1: Explorer</h3>
+            <div class="tier-req">0 - 3 Projects Completed</div>
+            <ul class="tier-perks-list">
+              <li><i class="fa-solid fa-check"></i> Access to all starter gigs</li>
+              <li><i class="fa-solid fa-check"></i> Standard community Discord</li>
+              <li><i class="fa-solid fa-check"></i> Digital completion certificate</li>
+              <li><i class="fa-solid fa-check"></i> Escrow direct payout</li>
+            </ul>
+            <div style="font-size: 0.75rem; color: #38BDF8; font-weight: 700;">Starting Tier</div>
+          </article>
+
+          <!-- Tier 2: Rising Star -->
+          <article class="teen-reward-tier-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="tier-badge-icon tier-2"><i class="fa-solid fa-meteor"></i></div>
+            <h3 class="tier-name">Level 2: Rising Star</h3>
+            <div class="tier-req">4 - 10 Projects Completed</div>
+            <ul class="tier-perks-list">
+              <li><i class="fa-solid fa-check"></i> +15% Higher gig payouts</li>
+              <li><i class="fa-solid fa-check"></i> Verified Profile Badge</li>
+              <li><i class="fa-solid fa-check"></i> Funngro Holographic Sticker Pack</li>
+              <li><i class="fa-solid fa-check"></i> Priority bidding queue</li>
+            </ul>
+            <div style="font-size: 0.75rem; color: var(--teen-green); font-weight: 700;">Bonus Unlocked: Stickers</div>
+          </article>
+
+          <!-- Tier 3: Prodigy -->
+          <article class="teen-reward-tier-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="tier-badge-icon tier-3"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <h3 class="tier-name">Level 3: Prodigy</h3>
+            <div class="tier-req">11 - 25 Projects Completed</div>
+            <ul class="tier-perks-list">
+              <li><i class="fa-solid fa-check"></i> Direct invitation to corporate sprints</li>
+              <li><i class="fa-solid fa-check"></i> Official Funngro Creator Hoodie</li>
+              <li><i class="fa-solid fa-check"></i> 1-on-1 Senior Tech Mentor review</li>
+              <li><i class="fa-solid fa-check"></i> Featured on company portal</li>
+            </ul>
+            <div style="font-size: 0.75rem; color: var(--teen-purple); font-weight: 700;">Bonus Unlocked: Custom Hoodie</div>
+          </article>
+
+          <!-- Tier 4: Elite Master -->
+          <article class="teen-reward-tier-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="tier-badge-icon tier-4"><i class="fa-solid fa-crown"></i></div>
+            <h3 class="tier-name">Level 4: Master</h3>
+            <div class="tier-req">25+ Projects Completed</div>
+            <ul class="tier-perks-list">
+              <li><i class="fa-solid fa-check"></i> Elite high-ticket client bounties</li>
+              <li><i class="fa-solid fa-check"></i> Tech gadget sponsorship (AirPods/Mouse)</li>
+              <li><i class="fa-solid fa-check"></i> Letter of Recommendation from CEOs</li>
+              <li><i class="fa-solid fa-check"></i> Funngro Youth Advisory Board seat</li>
+            </ul>
+            <div style="font-size: 0.75rem; color: var(--teen-yellow); font-weight: 700;">Bonus Unlocked: Tech Gadget</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. ACHIEVEMENTS (GAMIFIED TROPHY SHOWCASE) -->
+    <section class="section" id="achievements" style="background: var(--teen-surface);">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Collect Them All</div>
+          <h2 class="section-title">Creator Achievements &amp; Badges</h2>
+          <p class="section-desc">Unlock badges as you code, design, and deliver. Flaunt your achievements on your public creator profile.</p>
+        </header>
+
+        <div class="achievements-showcase-grid">
+          <!-- Badge 1 -->
+          <div class="achievement-badge-card" data-aos="zoom-in" data-aos-delay="50">
+            <div class="achievement-icon-frame"><i class="fa-solid fa-seedling"></i></div>
+            <div class="achievement-title">First Gig Won</div>
+            <div class="achievement-xp">+250 XP</div>
+          </div>
+
+          <!-- Badge 2 -->
+          <div class="achievement-badge-card" data-aos="zoom-in" data-aos-delay="100">
+            <div class="achievement-icon-frame"><i class="fa-solid fa-bolt-lightning"></i></div>
+            <div class="achievement-title">Speed Demon</div>
+            <div class="achievement-xp">+500 XP</div>
+          </div>
+
+          <!-- Badge 3 -->
+          <div class="achievement-badge-card" data-aos="zoom-in" data-aos-delay="150">
+            <div class="achievement-icon-frame"><i class="fa-solid fa-star-half-stroke"></i></div>
+            <div class="achievement-title">5-Star Streak</div>
+            <div class="achievement-xp">+800 XP</div>
+          </div>
+
+          <!-- Badge 4 -->
+          <div class="achievement-badge-card" data-aos="zoom-in" data-aos-delay="200">
+            <div class="achievement-icon-frame"><i class="fa-solid fa-code"></i></div>
+            <div class="achievement-title">Code Prodigy</div>
+            <div class="achievement-xp">+1,000 XP</div>
+          </div>
+
+          <!-- Badge 5 -->
+          <div class="achievement-badge-card" data-aos="zoom-in" data-aos-delay="250">
+            <div class="achievement-icon-frame"><i class="fa-solid fa-wallet"></i></div>
+            <div class="achievement-title">10k Earner</div>
+            <div class="achievement-xp">+1,500 XP</div>
+          </div>
+
+          <!-- Badge 6 -->
+          <div class="achievement-badge-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="achievement-icon-frame"><i class="fa-solid fa-people-group"></i></div>
+            <div class="achievement-title">Squad Leader</div>
+            <div class="achievement-xp">+2,000 XP</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. SUCCESS STORIES -->
+    <section class="section" id="stories" style="background: #0B0F19;">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Real Teen Stories</div>
+          <h2 class="section-title">What Our Creators Achieved</h2>
+          <p class="section-desc">From buying their first laptops to funding their college education, see what teenagers accomplished on Funngro.</p>
+        </header>
+
+        <div class="teen-stories-grid">
+          <!-- Story 1 -->
+          <article class="teen-story-card" data-aos="fade-up" data-aos-delay="100">
+            <div>
+              <div class="story-header">
+                <div class="story-avatar">AK</div>
+                <div class="story-meta">
+                  <h4>Aarav Kapoor (16)</h4>
+                  <p>Web Developer • Lucknow</p>
+                </div>
+              </div>
+              <p class="story-quote">
+                "I used to spend hours playing video games. On Funngro, I learned HTML and Tailwind from mentors and built landing pages for D2C brands. I saved ₹45,000 in 3 months and bought my own MacBook Air without asking my parents!"
+              </p>
+            </div>
+            <div class="story-achieved-badge">
+              <i class="fa-solid fa-laptop"></i> Bought M2 MacBook Air
+            </div>
+          </article>
+
+          <!-- Story 2 -->
+          <article class="teen-story-card" data-aos="fade-up" data-aos-delay="200">
+            <div>
+              <div class="story-header">
+                <div class="story-avatar" style="background: linear-gradient(135deg, var(--teen-purple), #EC4899);">SD</div>
+                <div class="story-meta">
+                  <h4>Sanya Deshmukh (17)</h4>
+                  <p>Video Editor &amp; Motion Artist • Pune</p>
+                </div>
+              </div>
+              <p class="story-quote">
+                "Editing short reels for fashion brands taught me commercial editing tricks. When I applied for design schools, my interviewer spent the whole time asking about my Funngro client projects. I received early admission with scholarship!"
+              </p>
+            </div>
+            <div class="story-achieved-badge">
+              <i class="fa-solid fa-graduation-cap"></i> Won Merit Design Scholarship
+            </div>
+          </article>
+
+          <!-- Story 3 -->
+          <article class="teen-story-card" data-aos="fade-up" data-aos-delay="300">
+            <div>
+              <div class="story-header">
+                <div class="story-avatar" style="background: linear-gradient(135deg, var(--teen-yellow), #EA580C);">RV</div>
+                <div class="story-meta">
+                  <h4>Rohan Verma (15)</h4>
+                  <p>Content Writer &amp; Researcher • Chandigarh</p>
+                </div>
+              </div>
+              <p class="story-quote">
+                "Balancing 10th grade exams with 2 weekly writing gigs was super manageable. I earned ₹18,000, paid for my own advanced coding course, and feel so confident talking to company founders."
+              </p>
+            </div>
+            <div class="story-achieved-badge">
+              <i class="fa-solid fa-piggy-bank"></i> 100% Self-Funded Tech Education
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. REFERRAL PROGRAM -->
+    <section class="section" id="referral" style="padding-top: 10px;">
+      <div class="container">
+        <div class="teen-referral-banner" data-aos="zoom-in">
+          <div class="referral-flex-row">
+            <div class="referral-content">
+              <div class="teen-badge-pill" style="background: rgba(251, 191, 36, 0.2); color: var(--teen-yellow); border-color: var(--teen-yellow);">
+                <i class="fa-solid fa-gift"></i> Squad Referral Bonus
+              </div>
+              <h3>Invite Your Squad &amp; Get ₹250 Each!</h3>
+              <p>
+                Everything is more fun with friends. Invite classmates or squad members to join Funngro. When they complete their first gig, both of you get ₹250 bonus credited straight to your wallet.
+              </p>
+
+              <div class="referral-code-box">
+                <div>
+                  <span style="font-size: 0.75rem; color: #94A3B8; display: block;">YOUR UNIQUE SQUAD CODE</span>
+                  <span class="referral-code-text" id="squad-code">TEENPRO-99</span>
+                </div>
+                <button class="btn-teen-outline" id="copy-code-btn" style="padding: 6px 16px; font-size: 0.8125rem;">
+                  <i class="fa-regular fa-copy"></i> Copy Code
+                </button>
+              </div>
+
+              <div class="referral-share-buttons">
+                <a href="https://api.whatsapp.com/send?text=Join%20me%20on%20Funngro%20and%20earn%20pocket%20money%20doing%20cool%20projects!%20Use%20code%20TEENPRO-99" target="_blank" rel="noopener noreferrer" class="btn-teen-primary" style="padding: 8px 18px; font-size: 0.875rem;">
+                  <i class="fa-brands fa-whatsapp"></i> Share on WhatsApp
+                </a>
+                <button class="btn-teen-secondary" style="padding: 8px 18px; font-size: 0.875rem;" id="discord-share-btn">
+                  <i class="fa-brands fa-discord"></i> Share on Discord
+                </button>
+              </div>
+            </div>
+
+            <!-- Visual Icon -->
+            <div style="text-align: center;">
+              <div style="width: 180px; height: 180px; border-radius: 50%; background: radial-gradient(circle, var(--teen-purple-glow), transparent 70%); margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-user-group" style="font-size: 5rem; color: var(--teen-yellow);"></i>
+              </div>
+              <div style="margin-top: 16px; font-weight: 800; color: #FFFFFF; font-size: 1.15rem;">Over 1.2M Squad Invites Sent!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="section" id="faq" style="background: var(--teen-surface);">
+      <div class="container">
+        <header class="section-header" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 8px;">Got Doubts?</div>
+          <h2 class="section-title">Teen &amp; Student FAQ</h2>
+          <p class="section-desc">Common questions answered about bank accounts, homework balance, and parental safety.</p>
+        </header>
+
+        <div class="faq-wrapper" style="max-width: 820px; margin: 0 auto;">
+          <!-- FAQ 1 -->
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do I need my own bank account to receive payments?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>Not necessarily! You can receive your project payouts into your parent/guardian's bank account, a registered student savings UPI ID (like FamPay/OmniCard), or your own minor bank account with parental verification.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do I balance school homework and projects?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>You have 100% control over your schedule! You choose which gigs to take and when to pause. Most micro-gigs take only 3 to 6 hours over an entire weekend. During exam seasons, you can put your profile on "Study Break" mode with zero penalties.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do my parents need to give permission?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Funngro follows strict child and youth safety guidelines. When you sign up, an SMS/Email consent link is sent to your parent or guardian to authorize your participation in experiential skill-learning gigs.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question" aria-expanded="false">
+              <span>What if I have zero prior experience?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>No worries! We have starter training sandboxes and sample briefs. Pass our free 10-minute skill quiz, get feedback from senior platform mentors, and start with Level 1 starter tasks designed specifically for beginners.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. DOWNLOAD APP SECTION -->
+    <section class="section" id="download-app">
+      <div class="container">
+        <div class="teen-app-section" data-aos="fade-up">
+          <div class="teen-app-grid">
+            <div>
+              <div class="teen-badge-pill" style="margin-bottom: 12px;">Mobile Creator App</div>
+              <h2 style="font-size: 2.5rem; font-weight: 900; color: #FFFFFF; line-height: 1.2; margin-bottom: 16px;">
+                Earn Gigs On The Go With The Funngro App
+              </h2>
+              <p style="font-size: 1rem; color: #94A3B8; line-height: 1.6;">
+                Get instant notifications when new projects drop, chat directly with company clients, submit deliverable links, and track your wallet balance in real time.
+              </p>
+
+              <div class="teen-app-buttons">
+                <a href="#" class="store-badge-btn" aria-label="Download on Google Play Store">
+                  <i class="fa-brands fa-google-play" style="color: var(--teen-green);"></i>
+                  <div class="store-badge-text">
+                    <small>Get it on</small>
+                    <span>Google Play</span>
+                  </div>
+                </a>
+                <a href="#" class="store-badge-btn" aria-label="Download on Apple App Store">
+                  <i class="fa-brands fa-apple" style="color: #FFFFFF;"></i>
+                  <div class="store-badge-text">
+                    <small>Download on</small>
+                    <span>App Store</span>
+                  </div>
+                </a>
+              </div>
+
+              <div style="display: flex; align-items: center; gap: 14px;">
+                <div style="display: flex;">
+                  <i class="fa-solid fa-star" style="color: var(--teen-yellow);"></i>
+                  <i class="fa-solid fa-star" style="color: var(--teen-yellow);"></i>
+                  <i class="fa-solid fa-star" style="color: var(--teen-yellow);"></i>
+                  <i class="fa-solid fa-star" style="color: var(--teen-yellow);"></i>
+                  <i class="fa-solid fa-star" style="color: var(--teen-yellow);"></i>
+                </div>
+                <span style="font-size: 0.875rem; color: #CBD5E1; font-weight: 600;">4.8/5 Rating • 1M+ Downloads</span>
+              </div>
+            </div>
+
+            <!-- Right QR code & community box -->
+            <div style="text-align: center; background: #0B0F19; border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 24px; padding: 36px;" id="discord-community">
+              <div style="width: 130px; height: 130px; margin: 0 auto 20px; background: #FFFFFF; border-radius: 16px; padding: 10px; display: flex; align-items: center; justify-content: center;">
+                <i class="fa-solid fa-qrcode" style="font-size: 7rem; color: #0F172A;"></i>
+              </div>
+              <h4 style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">Scan to Join Teen Discord</h4>
+              <p style="font-size: 0.8125rem; color: #94A3B8; max-width: 280px; margin: 0 auto 16px;">Hang out with 25,000+ teen coders, designers, and video editors.</p>
+              <button class="btn-teen-secondary" style="font-size: 0.875rem; padding: 8px 20px;">
+                <i class="fa-brands fa-discord"></i> Open Discord Invite
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. NEWSLETTER ("WEEKLY GIG DROP") -->
+    <section class="section" id="newsletter" style="padding-top: 10px;">
+      <div class="container">
+        <div style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%), #131A2A; border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 28px; padding: 48px; text-align: center; max-width: 800px; margin: 0 auto;" data-aos="fade-up">
+          <div class="teen-badge-pill" style="margin-bottom: 12px;">Weekly Gig Drop</div>
+          <h3 style="font-size: 2rem; font-weight: 900; color: #FFFFFF; margin-bottom: 12px;">Never Miss High-Paying Projects</h3>
+          <p style="font-size: 0.9375rem; color: #94A3B8; max-width: 500px; margin: 0 auto 28px;">
+            Every Friday, we send a curated digest of the highest-paying weekend gigs in web development, video editing, and AI prompt assistance.
+          </p>
+
+          <form id="teen-newsletter-form" style="display: flex; gap: 12px; max-width: 480px; margin: 0 auto; flex-wrap: wrap;">
+            <input type="email" placeholder="Enter your student email..." required style="flex: 1; min-width: 220px; background: #0B0F19; border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 99px; padding: 12px 22px; color: #FFFFFF; font-size: 0.9375rem;" aria-label="Student email for gig drops">
+            <button type="submit" class="btn-teen-primary" style="padding: 12px 24px;">Get Drops</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 12. CREATIVE FOOTER -->
+  <footer class="creative-footer">
+    <div class="container">
+      <div class="teen-footer-top">
+        <!-- Col 1: Brand & Gen-Z Manifesto -->
+        <div class="teen-footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #FFFFFF; display: inline-flex;">
+            <div class="logo-symbol"><i class="fa-solid fa-bolt"></i></div>
+            <span>funn<span class="brand-accent">gro</span> Youth</span>
+          </a>
+          <p>
+            Building the next generation of financial and digital leaders. Turn your passions into pocket money, verified skills, and lifelong career confidence.
+          </p>
+          <div class="teen-social-stickers">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="teen-social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="teen-social-icon" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="teen-social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="teen-social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Teen Gigs -->
+        <div class="teen-footer-col">
+          <h4>Trending Gigs</h4>
+          <ul>
+            <li><a href="#projects">Web Development</a></li>
+            <li><a href="#projects">Video Reels Editing</a></li>
+            <li><a href="#projects">AI Prompting</a></li>
+            <li><a href="#projects">Figma UI Design</a></li>
+            <li><a href="#projects">Content Writing</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Community & Badges -->
+        <div class="teen-footer-col">
+          <h4>Creator Arena</h4>
+          <ul>
+            <li><a href="#leaderboard">Weekly Podium</a></li>
+            <li><a href="#rewards">Tier Rewards &amp; Swag</a></li>
+            <li><a href="#achievements">Trophy Badges</a></li>
+            <li><a href="#referral">Squad Referral ₹250</a></li>
+            <li><a href="#download-app">Mobile App</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Safety & Ecosystem -->
+        <div class="teen-footer-col">
+          <h4>Safety &amp; Portals</h4>
+          <ul>
+            <li><a href="#faq">Parental Safety Guide</a></li>
+            <li><a href="company.html">For Companies</a></li>
+            <li><a href="index.html">Home Ecosystem Hub</a></li>
+            <li><a href="seo-audit-report.html">SEO Audit Report</a></li>
+            <li><a href="#">Minor Protection Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="teen-footer-bottom">
+        <p>&copy; 2026 Funngro Revamp. Built with pride for young creators worldwide. Frontend, UI/UX, &amp; SEO Portfolio Showcase.</p>
+        <div style="display: flex; gap: 16px;">
+          <a href="#" style="color: #94A3B8;">Privacy</a>
+          <a href="#" style="color: #94A3B8;">Terms</a>
+          <a href="#" style="color: #94A3B8;">Parental Rules</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top of page">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Interactive Teen Signup Modal -->
+  <div class="modal-backdrop" id="teen-signup-modal" role="dialog" aria-modal="true" aria-labelledby="teen-signup-title">
+    <div class="modal-content" style="background: #131A2A; color: #FFFFFF; border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 24px;">
+      <button class="modal-close" style="color: #FFFFFF;" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+      <h3 id="teen-signup-title" style="font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; color: #FFFFFF;">Join the Teen Creator Squad</h3>
+      <p style="font-size: 0.875rem; color: #94A3B8; margin-bottom: 20px;">Start building projects and earn your first pocket money.</p>
+
+      <form id="teen-register-form">
+        <div class="form-group">
+          <label for="teen-name" class="form-label" style="color: #CBD5E1;">Full Name</label>
+          <input type="text" id="teen-name" class="form-control" style="background: #0B0F19; color: #FFFFFF; border-color: rgba(255,255,255,0.15);" placeholder="e.g. Maya Sharma" required>
+        </div>
+        <div class="form-group">
+          <label for="teen-age" class="form-label" style="color: #CBD5E1;">Your Age (14 - 19)</label>
+          <input type="number" id="teen-age" min="14" max="19" class="form-control" style="background: #0B0F19; color: #FFFFFF; border-color: rgba(255,255,255,0.15);" placeholder="16" required>
+        </div>
+        <div class="form-group">
+          <label for="teen-skill-interest" class="form-label" style="color: #CBD5E1;">Primary Skill Interest</label>
+          <select id="teen-skill-interest" class="form-control" style="background: #0B0F19; color: #FFFFFF; border-color: rgba(255,255,255,0.15);">
+            <option>Web Development</option>
+            <option>Video Editing</option>
+            <option>AI Tools &amp; Prompting</option>
+            <option>Graphic Design</option>
+            <option>Content Writing</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="teen-email" class="form-label" style="color: #CBD5E1;">Your Email</label>
+          <input type="email" id="teen-email" class="form-control" style="background: #0B0F19; color: #FFFFFF; border-color: rgba(255,255,255,0.15);" placeholder="you@student.com" required>
+        </div>
+        <button type="submit" class="btn-teen-primary" style="width: 100%; justify-content: center; margin-top: 10px;">
+          Create Free Student Profile <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Interactive Teen Login Modal -->
+  <div class="modal-backdrop" id="teen-login-modal" role="dialog" aria-modal="true" aria-labelledby="teen-login-title">
+    <div class="modal-content" style="background: #131A2A; color: #FFFFFF; border: 1px solid rgba(34, 197, 94, 0.4); border-radius: 24px;">
+      <button class="modal-close" style="color: #FFFFFF;" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+      <h3 id="teen-login-title" style="font-size: 1.5rem; font-weight: 800; margin-bottom: 6px; color: #FFFFFF;">Student Login</h3>
+      <p style="font-size: 0.875rem; color: #94A3B8; margin-bottom: 20px;">Access your active gigs, XP progress, and wallet balance.</p>
+
+      <form id="teen-login-form">
+        <div class="form-group">
+          <label for="teen-login-email" class="form-label" style="color: #CBD5E1;">Student Email</label>
+          <input type="email" id="teen-login-email" class="form-control" style="background: #0B0F19; color: #FFFFFF; border-color: rgba(255,255,255,0.15);" placeholder="you@student.com" required>
+        </div>
+        <div class="form-group">
+          <label for="teen-login-pass" class="form-label" style="color: #CBD5E1;">Password</label>
+          <input type="password" id="teen-login-pass" class="form-control" style="background: #0B0F19; color: #FFFFFF; border-color: rgba(255,255,255,0.15);" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="btn-teen-primary" style="width: 100%; justify-content: center; margin-top: 10px;">
+          Sign In to Creator Dashboard
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 60
+    });
+  </script>
+
+  <!-- Core Vanilla JavaScript -->
+  <script type="module" src="/js/script.js"></script>
+</body>
+</html>
